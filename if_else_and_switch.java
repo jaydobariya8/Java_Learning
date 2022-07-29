@@ -90,9 +90,5 @@ public class if_else_and_switch {
 //            case 7 -> System.out.println("sunday");
 //        }
 
-
-
-
-
     }
 }
