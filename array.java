@@ -22,6 +22,9 @@ public class array {
         // 3- method to create an array
 
         int [] marks ={40,78,86,95,45};
+
+        // find an length of an array 
+        System.out.println("Length of an array is: "+ marks.length);
         
         // System.out.println(marks[0]);
         // System.out.println(marks[1]);
@@ -31,6 +34,7 @@ public class array {
         //     System.out.println(marks[i]);
         // }
 
+        // quick quiz- print array in reverse order 
         // for (int i = marks.length-1; i>=1; i--) {
         //     System.out.println(marks[i]);
         // }
