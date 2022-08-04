@@ -1,51 +1,3 @@
-
-class emplyee{
-    int salary;
-    String name;
-    
-    public int getSalary(){
-        return salary;
-    }
-    public String getName(){
-        return name;
-    }
-    public void setName(String n){
-        name = n;
-    }
-}
-
-
-class cellPhone{
-    public void ringing(){
-        System.out.println("Ringing");
-    }
-    public void vibrating(){
-        System.out.println("vibrating");
-    }
-}
-
-class square{
-    int side;
-    public int area(){
-        return side*side;
-    }
-    public int perimeter(){
-        return 4*side;
-    }
-}
-
-class tommy{
-    public void hit(){
-        System.out.println("hiting the enemy");
-    }
-    public void run(){
-        System.out.println("runing the enemy");
-    }
-    public void fire(){
-        System.out.println("fireing the enemy");
-    }
-}
-
 public class oops_basic_prectice_set {
     public static void main(String[] args) {
         // problem 1
@@ -71,5 +23,58 @@ public class oops_basic_prectice_set {
         game.run();
         game.fire();
         game.hit();
+
     }
 }
+
+// problem 1
+class emplyee{
+    int salary;
+    String name;
+    
+    public int getSalary(){
+        return salary;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setName(String n){
+        name = n;
+    }
+}
+
+// problem 2
+class cellPhone{
+    public void ringing(){
+        System.out.println("Ringing");
+    }
+    public void vibrating(){
+        System.out.println("vibrating");
+    }
+}
+
+// problem 3
+class square{
+    int side;
+    public int area(){
+        return side*side;
+    }
+    public int perimeter(){
+        return 4*side;
+    }
+}
+
+// problem 4
+class tommy{
+    public void hit(){
+        System.out.println("hiting the enemy");
+    }
+    public void run(){
+        System.out.println("runing the enemy");
+    }
+    public void fire(){
+        System.out.println("fireing the enemy");
+    }
+}
+
+
