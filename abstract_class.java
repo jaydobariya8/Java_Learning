@@ -1,4 +1,4 @@
-public class abstart_class {
+public class abstract_class {
     public static void main(String[] args) {
         // we cannot make object of an abstart class but we create reference 
         // Parent p = new Parent(); -- error
