@@ -44,12 +44,11 @@ public class library_app{
         library mylibrary = new library();
         mylibrary.addBook("Bhagvat Geetaji");
         mylibrary.addBook("mahabharat");
-        // mylibrary.showAvailableBooks();
-        // mylibrary.issueBook("mahabharat");
-        // mylibrary.showAvailableBooks();
-        // mylibrary.returnBook("mahabhrat");
-        // mylibrary.showAvailableBooks();
-        // mylibrary.issueBook("java");
+        mylibrary.showAvailableBooks();
+        mylibrary.issueBook("mahabharat");
+        mylibrary.showAvailableBooks();
+        mylibrary.returnBook("mahabhrat");
+        mylibrary.showAvailableBooks();
         mylibrary.issueBook("Bhagvat Geetaji");
         
         
