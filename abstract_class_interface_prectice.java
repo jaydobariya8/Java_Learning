@@ -52,5 +52,15 @@ public class abstract_class_interface_prectice {
         // Q-3 
         human jay = new human();
         jay.sleep();
+
+        // Q-4
+        monkey m = new human();
+        m.bite();
+        // m.speak(); ----> cannot use speak method because monkey is reference and its not have a speak method 
+
+        basicAnimal b = new human();
+        b.sleep();
+        // b.speak(); ----> Error beacuse of polymorphism 
+
     }
 }
